@@ -22,3 +22,4 @@ following_users = sorted(following_users)
 
 diff = [name for name in following_users if name not in follower_users]
 print(diff)
+
